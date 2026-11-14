@@ -1,0 +1,25 @@
+# # import numpy as np
+# # print(np.full((5, 10), 100))
+# # print(np.random.randint(1, 100, size=(5, 10)))
+# arr= np.array([1,2,3,4,5])
+# print(np.unique(arr))
+
+# arr= np.array([20])
+# print(np.split(arr,5))
+
+# a=np.array([[1,2,3],[4,5,6]])
+# b=np.array([[7,8,9],[10,11,12]])
+# print(a+b)
+
+arr=np.array([1,2,3,4,5])
+print(np.mean(arr))
+print(np.median(arr))
+print(np.std(arr))
+print(np.var(arr))
+print(np.percentile(arr, 25))
+print(np.sqrt(arr))
+print(np.log(arr))
+print(np.exp(arr))
+print(np.sin(arr))
+print(np.cos(arr))
+print(np.square(arr))
